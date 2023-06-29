@@ -13,7 +13,9 @@
 
  let cardIcon = [];
  for (let i = 0; i < cardsList.length; i++) {
+  // console.log(cardsList[3].innerHTML)
    cardIcon[i] = cardsList[i].innerHTML;
+
  }
 
 // Shuffle function from http://stackoverflow.com/a/2450976
